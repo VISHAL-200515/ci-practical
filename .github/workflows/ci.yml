@@ -4,7 +4,7 @@ name: Node.js CI
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-test:
@@ -24,8 +24,3 @@ jobs:
 
       - name: Run tests
         run: npm test
-
-on:
-  push:
-    branches:
-      - master
